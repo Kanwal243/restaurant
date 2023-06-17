@@ -1,7 +1,13 @@
 import React from "react";
+import { DBLeftSection, DBRightSection } from "../components";
 
 function Dashboard() {
-  return <div></div>;
+  return (
+    <div className="w-screen h-screen flex items-center">
+      <DBLeftSection />
+      <DBRightSection />
+    </div>
+  );
 }
 
 export default Dashboard;
